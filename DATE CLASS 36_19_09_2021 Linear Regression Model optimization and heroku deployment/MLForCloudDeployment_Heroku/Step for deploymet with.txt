@@ -1,0 +1,12 @@
+1. runtime.txt and Procfile creation (Procfile do not have any extention)
+2. Procfile contain web : gunicorn app : app
+3. Make sure all requirements.txt available and created environment is working propertly
+4. install all necessory imports using pip install -r requirments.txt
+5. for heroku install heroku cli and git application
+6. than log in to heroku by   >>>heroku login
+7. Then again simply add code as following  
+8. >>>git init
+   >>>heroku git:clone -a lenier-model-addmision
+   >>>git add .
+   >>>git commit -am "make it better"
+   >>>git push heroku master
